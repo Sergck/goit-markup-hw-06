@@ -468,18 +468,19 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 
 .footer-container {
-  display: flex;
+  display: inline-flex;
+  /* display: flex; */
   justify-items: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .footer-logo-cont {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-logo {
@@ -865,5 +866,33 @@ img {
 @media screen and (min-width: 320px) {
   .container {
     max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .ourportfolio-list {
+    gap: 72px 24px;
+  }
+
+  .ourportfolio-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1128px;
+  }
+
+  .ourportfolio-list {
+    gap: 48px 24px;
+  }
+
+  .ourportfolio-item {
+    width: calc((100% - 24px * 2) / 3);
   }
 }
