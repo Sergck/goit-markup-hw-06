@@ -219,6 +219,7 @@ img {
 .mob-tabs {
   margin-top: 24px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -268,10 +269,6 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.two {
-  color: #4d5ae5;
 }
 
 .mob-item-link:hover,
