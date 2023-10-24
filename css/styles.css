@@ -872,6 +872,19 @@ img {
     max-width: 736px;
   }
 
+  .solutions {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .solutions-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+
   .itemsofser-list {
     display: flex;
     flex-direction: row;
