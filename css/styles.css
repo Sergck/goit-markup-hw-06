@@ -1107,8 +1107,35 @@ img {
   }
 
   .footer-container {
+    width: 584px;
+  }
+
+  .footer-box {
     display: flex;
-    flex-direction: row;
+  }
+
+  .footer-logo-cont {
+    display: block;
+    width: 264px;
+    margin-right: 24px;
+  }
+
+  .footer-socmedia {
+    display: block;
+    width: 208px;
+  }
+
+  .footer-bottom {
+    display: block;
+  }
+
+  .footer-form-label {
+    width: 264px;
+  }
+
+  .footer-form {
+    justify-content: flex-start;
+    gap: 24px;
   }
 }
 
@@ -1192,10 +1219,23 @@ img {
   }
 
   .footer-container {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
   }
 
   .footer-logo-cont {
+    max-width: 264px;
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-socmedia {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  .footer-form-label {
+    display: flex;
   }
 }
